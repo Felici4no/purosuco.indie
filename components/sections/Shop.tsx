@@ -22,8 +22,48 @@ export function Shop() {
                     <p className="font-hand text-xl md:text-2xl">Vista a camisa (literalmente).</p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-                    {PRODUCTS.map((product) => (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20 items-center">
+                    <div className="relative group">
+                        <div className="absolute inset-0 bg-white rotate-1 rounded-sm opacity-10 group-hover:rotate-2 transition-transform"></div>
+                        <div className="relative bg-neutral-900 border-2 border-white p-8 aspect-square flex items-center justify-center">
+                            <img
+                                src="/products/bone-001.png"
+                                alt="Boné 001"
+                                className="w-full h-full object-contain filter drop-shadow-xl transform group-hover:scale-110 transition-transform duration-500"
+                            />
+                            <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 font-bold text-sm rotate-3">
+                                #001
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="text-left space-y-6">
+                        <div className="inline-block border-b-2 border-white pb-1">
+                            <span className="font-hand text-xl text-neutral-400">Limited Edition</span>
+                        </div>
+                        <h3 className="text-5xl md:text-7xl font-black tracking-tighter">
+                            BONÉ<br />ORIGINS<br />001
+                        </h3>
+                        <p className="font-hand text-xl text-neutral-300 max-w-md">
+                            O primeiro item físico da Puro Suco. Minimalista, essencial e com nosso clássico logo bordado.
+                        </p>
+                        <div className="flex items-center gap-6 pt-4">
+                            <span className="text-3xl font-bold">R$ 89,90</span>
+                            <Button variant="primary" className="bg-white text-black border-white hover:bg-neutral-200 px-8 py-4 text-lg">
+                                GARANTIR O MEU
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="border-t border-dashed border-neutral-700 my-16"></div>
+
+                <div className="text-center mb-10">
+                    <h3 className="font-hand text-2xl text-neutral-400">Em Breve</h3>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 opacity-60 pointer-events-none grayscale">
+                    {PRODUCTS.filter(p => p.id !== 3).map((product) => (
                         <div key={product.id} className="group relative">
                             {/* Card border specifically for dark mode section - inverted colors */}
                             <div className="border-2 border-white p-6 rounded-none relative transition-transform hover:-translate-y-2 bg-black">
