@@ -3,6 +3,8 @@ import { Geist, Patrick_Hand } from "next/font/google"; // Geist is standard san
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 
+import { LoadingScreen } from "@/components/ui/LoadingScreen";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${patrickHand.variable} antialiased bg-white text-black font-sans`}
       >
+        <LoadingScreen />
         <Header />
         {children}
       </body>
