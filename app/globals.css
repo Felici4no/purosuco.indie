@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-hand: var(--font-patrick-hand);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Utilities for drawn aesthetic */
+@layer utilities {
+  .font-hand {
+    font-family: var(--font-hand);
+  }
+  
+  .border-sketch {
+    border: 2px solid black;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  }
+
+  .border-sketch-sm {
+    border: 2px solid black;
+    border-radius: 20px 5px 20px 5px / 5px 20px 5px 20px;
+  }
+
+  .shadow-sketch {
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.8);
+  }
+  
+  .hover-wiggle:hover {
+    animation: wiggle 0.3s ease-in-out infinite;
+  }
+
+  .text-shadow-sm {
+      text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+  }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(1deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
