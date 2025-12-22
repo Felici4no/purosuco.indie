@@ -13,37 +13,41 @@ const PRODUCTS = [
 
 export function Shop() {
     return (
-        <section id="loja" className="py-20 px-4 bg-black text-white relative">
+        <section id="loja" className="py-12 md:py-20 px-4 bg-black text-white relative">
             <div className="absolute top-0 left-0 w-full h-4 bg-white" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 0)' }}></div>
 
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-6xl font-black mb-4">A LOJA</h2>
-                    <p className="font-hand text-2xl">Vista a camisa (literalmente).</p>
+                <div className="text-center mb-10 md:mb-16">
+                    <h2 className="text-4xl md:text-6xl font-black mb-4">A LOJA</h2>
+                    <p className="font-hand text-xl md:text-2xl">Vista a camisa (literalmente).</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
                     {PRODUCTS.map((product) => (
                         <div key={product.id} className="group relative">
                             {/* Card border specifically for dark mode section - inverted colors */}
-                            <div className="border-2 border-white p-6 rounded-none relative transition-transform group-hover:-translate-y-2 bg-black">
+                            <div className="border-2 border-white p-6 rounded-none relative transition-transform hover:-translate-y-2 bg-black">
                                 <div className="aspect-square bg-neutral-900 mb-4 flex items-center justify-center border border-dashed border-neutral-700">
                                     <span className="font-hand text-neutral-500">Foto do Produto</span>
                                 </div>
 
                                 <div className="flex justify-between items-start mb-2">
-                                    <h3 className="text-xl font-bold">{product.name}</h3>
+                                    <h3 className="text-lg md:text-xl font-bold">{product.name}</h3>
                                     <span className="font-hand text-lg">{product.price}</span>
                                 </div>
 
-                                <div className="opacity-0 group-hover:opacity-100 transition-opacity absolute inset-x-6 bottom-6">
+                                {/* Mobile: Always show button, Desktop: Hover */}
+                                <div className="md:opacity-0 md:group-hover:opacity-100 transition-opacity md:absolute md:inset-x-6 md:bottom-6 mt-4 md:mt-0">
                                     <Button variant="primary" className="w-full bg-white text-black border-white hover:bg-gray-200">
                                         Adicionar
                                     </Button>
                                 </div>
 
-                                {/* Default visible info when not hovering */}
-                                <div className="group-hover:opacity-0 transition-opacity text-sm text-gray-400">
+                                {/* Default visible info when not hovering (Desktop only) */}
+                                <div className="hidden md:block group-hover:opacity-0 transition-opacity text-sm text-gray-400">
+                                    {product.type}
+                                </div>
+                                <div className="md:hidden text-sm text-gray-400 mt-2 text-center">
                                     {product.type}
                                 </div>
                             </div>
@@ -51,7 +55,7 @@ export function Shop() {
                     ))}
                 </div>
 
-                <div className="mt-16 text-center">
+                <div className="mt-12 md:mt-16 text-center">
                     <p className="font-hand text-gray-400">Envio para todo o Brasil • Feito com ❤️</p>
                 </div>
             </div>

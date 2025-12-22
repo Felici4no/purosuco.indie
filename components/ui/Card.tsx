@@ -11,7 +11,7 @@ export function Card({ children, className = '', hoverEffect = false }: CardProp
         <div
             className={`
         bg-white p-6 border-sketch relative
-        ${hoverEffect ? 'hover:-translate-y-1 hover:shadow-sketch transition-all duration-300' : ''}
+        ${hoverEffect ? 'hover:-translate-y-1 hover:shadow-sketch transition-all duration-300 active:translate-y-0 active:shadow-none' : ''}
         ${className}
       `}
         >

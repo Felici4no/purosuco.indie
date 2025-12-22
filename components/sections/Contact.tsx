@@ -34,9 +34,8 @@ export function Contact() {
                 </form>
 
                 <div className="mt-16 flex justify-center gap-8">
-                    <a href="#" className="hover:text-gray-400 transition-colors font-bold">INSTAGRAM</a>
-                    <a href="#" className="hover:text-gray-400 transition-colors font-bold">TIKTOK</a>
-                    <a href="#" className="hover:text-gray-400 transition-colors font-bold">YOUTUBE</a>
+                    <a href="https://www.instagram.com/purosuco.indie/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors font-bold">INSTAGRAM</a>
+                    <a href="https://github.com/Purosuco-indie" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors font-bold">GITHUB</a>
                 </div>
 
                 <div className="mt-16 text-gray-600 text-sm font-hand">

@@ -15,7 +15,7 @@ const patrickHand = Patrick_Hand({
 });
 
 export const metadata: Metadata = {
-  title: "Puro Suco Indie",
+  title: "PuroSuco.Indie",
   description: "Games + Moda — feito no Brasil",
 };
 

@@ -13,31 +13,34 @@ export function About() {
                         <span className="font-hand text-2xl text-gray-400 transform -rotate-12">Foto da Equipe</span>
                     </div>
 
-                    <div className="absolute -bottom-6 -right-6 bg-black text-white p-4 font-hand transform rotate-3 shadow-sketch">
-                        "Feito por humanos"
+                    <div className="absolute -bottom-4 right-0 md:-bottom-6 md:-right-6 bg-black text-white p-3 md:p-4 font-hand transform rotate-3 shadow-sketch max-w-[90%] text-center border-2 border-white">
+                        "Feito por gente de verdade"
                     </div>
                 </div>
 
                 <div className="order-1 md:order-2">
                     <h2 className="text-5xl font-black mb-6">QUEM SOMOS</h2>
-                    <div className="space-y-6 text-lg">
+                    <div className="space-y-6 text-lg leading-relaxed">
                         <p>
-                            <strong>Puro Suco Indie</strong> é um estúdio-lab que não sabe decidir se faz jogos ou roupas, então fazemos os dois.
+                            <strong>Puro Suco Indie</strong> é um estúdio brasileiro que espreme ideias até virarem duas coisas: <em>jogos jogáveis</em> e <em>roupas usáveis</em>.
                         </p>
                         <p>
-                            Acreditamos que a tecnologia ficou limpa demais. Sentimos falta da textura, do erro, do risco de caneta no papel.
-                            Por isso, esprememos nossas ideias até sobrar apenas a essência.
+                            Somos contra o excesso de polimento. Acreditamos no risco, no traço, no bug bonito. Fazemos jogos com cheiro de canetinha,
+                            textura de caderno e gosto de Brasil.
+                        </p>
+                        <p>
+                            Cada jogo nasce como ideia, vira gameplay, e tudo com o mesmo DNA. Não é merchandising. É continuidade.
                         </p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 bg-white">
                         <div className="p-4 border-l-4 border-black">
-                            <h4 className="font-bold mb-1">Sem polimento falso</h4>
-                            <p className="text-sm text-gray-600">Preferimos um bug engraçado a uma feature chata.</p>
+                            <h4 className="font-bold mb-1">Gameplay com alma</h4>
+                            <p className="text-sm text-gray-600">Toda escolha de design nasce de algo que a gente acredita. Não fazemos feature sem motivo.</p>
                         </div>
                         <div className="p-4 border-l-4 border-black">
-                            <h4 className="font-bold mb-1">Brasil Criativo</h4>
-                            <p className="text-sm text-gray-600">Nossa cultura é nossa engine principal.</p>
+                            <h4 className="font-bold mb-1">Moda com história</h4>
+                            <p className="text-sm text-gray-600">Cada roupa carrega um pedaço do jogo. Um símbolo. Um universo costurado.</p>
                         </div>
                     </div>
                 </div>
