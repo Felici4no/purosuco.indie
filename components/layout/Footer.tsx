@@ -71,7 +71,7 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-dashed border-gray-800 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-gray-600 font-hand">
                     <p>© 2025 Puro Suco Indie. Todos os direitos reservados.</p>
-                    <p>Feito com ❤️ e muita cafeína.</p>
+                    <p>Feito com o Puro Suco Indie.</p>
                 </div>
             </div>
         </footer>

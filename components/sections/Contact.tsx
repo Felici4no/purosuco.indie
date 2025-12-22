@@ -38,9 +38,6 @@ export function Contact() {
                     <a href="https://github.com/Purosuco-indie" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors font-bold">GITHUB</a>
                 </div>
 
-                <div className="mt-16 text-gray-600 text-sm font-hand">
-                    © 2025 Puro Suco Indie. Todos os direitos reservados (e alguns esquerdos).
-                </div>
             </div>
         </section>
     );

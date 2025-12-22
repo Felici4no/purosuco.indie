@@ -4,11 +4,6 @@ import { Button } from '../ui/Button';
 
 const PRODUCTS = [
     { id: 1, name: 'T-Shirt "Traço Vivo"', price: 'R$ 89,90', type: 'Camiseta' },
-    { id: 2, name: 'Moletom "Puro Suco"', price: 'R$ 189,90', type: 'Casaco' },
-    { id: 3, name: 'Boné "Indie"', price: 'R$ 59,90', type: 'Acessório' },
-    { id: 4, name: 'Ecobag "Feira"', price: 'R$ 35,00', type: 'Acessório' },
-    { id: 5, name: 'Sticker Pack #1', price: 'R$ 15,00', type: 'Adesivos' },
-    { id: 6, name: 'Caneca "Café & Code"', price: 'R$ 45,00', type: 'Casa' },
 ];
 
 export function Shop() {
@@ -49,7 +44,7 @@ export function Shop() {
                         </p>
                         <div className="flex items-center gap-6 pt-4">
                             <span className="text-3xl font-bold">R$ 89,90</span>
-                            <Button variant="primary" className="bg-white text-black border-white hover:bg-neutral-200 px-8 py-4 text-lg">
+                            <Button variant="primary" className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black px-8 py-4 text-lg transition-colors duration-300">
                                 GARANTIR O MEU
                             </Button>
                         </div>
@@ -96,7 +91,7 @@ export function Shop() {
                 </div>
 
                 <div className="mt-12 md:mt-16 text-center">
-                    <p className="font-hand text-gray-400">Envio para todo o Brasil • Feito com ❤️</p>
+                    <p className="font-hand text-gray-400">Envio para todo o Brasil</p>
                 </div>
             </div>
 
