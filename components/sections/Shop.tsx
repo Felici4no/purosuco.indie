@@ -3,7 +3,7 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 
 const PRODUCTS = [
-    { id: 1, name: 'T-Shirt "Traço Vivo"', price: 'R$ 89,90', type: 'Camiseta' },
+    { id: 1, name: 'BONÉ ORIGINS 002', price: 'R$ 119,90', type: 'Boné' },
 ];
 
 export function Shop() {
@@ -43,7 +43,7 @@ export function Shop() {
                             O primeiro item físico da Puro Suco. Minimalista, essencial e com nosso clássico logo bordado.
                         </p>
                         <div className="flex items-center gap-6 pt-4">
-                            <span className="text-3xl font-bold">R$ 89,90</span>
+                            <span className="text-3xl font-bold">R$ 119,90 </span>
                             <Button variant="primary" className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black px-8 py-4 text-lg transition-colors duration-300">
                                 GARANTIR O MEU
                             </Button>
@@ -63,7 +63,7 @@ export function Shop() {
                             {/* Card border specifically for dark mode section - inverted colors */}
                             <div className="border-2 border-white p-6 rounded-none relative transition-transform hover:-translate-y-2 bg-black">
                                 <div className="aspect-square bg-neutral-900 mb-4 flex items-center justify-center border border-dashed border-neutral-700">
-                                    <span className="font-hand text-neutral-500">Foto do Produto</span>
+                                    <span className="font-hand text-neutral-500">Foto do Produto<br />Em Breve</span>
                                 </div>
 
                                 <div className="flex justify-between items-start mb-2">

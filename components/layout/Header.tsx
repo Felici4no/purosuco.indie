@@ -49,9 +49,6 @@ export function Header() {
                                 {item.label}
                             </Link>
                         ))}
-                        <button className="ml-4 font-hand text-xl hover-wiggle" aria-label="Carrinho">
-                            🛍️
-                        </button>
                     </nav>
 
                     {/* Mobile Menu Button */}
