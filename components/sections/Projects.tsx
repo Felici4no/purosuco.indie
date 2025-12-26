@@ -11,7 +11,10 @@ const PROJECTS = [
 export function Projects() {
     return (
         <section className="py-20 px-4 max-w-4xl mx-auto">
-            <h2 className="text-4xl font-black mb-12 text-center text-decoration-underline decoration-wavy">BASTIDORES / LAB</h2>
+            <h2 className="text-4xl font-black mb-12 text-center text-decoration-underline decoration-wavy">
+                BASTIDORES
+                <span className="block text-xl font-hand mt-2 no-underline text-gray-500">Onde a ideia ainda está suja.</span>
+            </h2>
 
             <div className="relative pl-8 border-l-2 border-black border-dashed space-y-12">
                 {PROJECTS.map((project, index) => (

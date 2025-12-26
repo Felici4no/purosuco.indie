@@ -25,19 +25,18 @@ export function Hero() {
                 </h1>
 
                 <p className="text-lg sm:text-xl md:text-2xl font-hand mb-10 max-w-2xl mx-auto px-2">
-                    Um estúdio brasileiro que transforma ideias em jogos.
-                    <span className="block mt-2 font-bold">menos polpa, mais suco.</span>
+                    Menos polpa. Mais essência.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center w-full sm:w-auto">
                     <Link href="/jogos" className="w-full sm:w-auto">
                         <Button variant="primary" className="w-full">
-                            Ver demos de jogos
+                            Jogar
                         </Button>
                     </Link>
                     <Link href="/loja" className="w-full sm:w-auto">
                         <Button variant="outline" className="w-full">
-                            Entrar na loja
+                            Ver artefatos
                         </Button>
                     </Link>
                 </div>

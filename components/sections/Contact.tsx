@@ -7,7 +7,11 @@ export function Contact() {
             <div className="max-w-2xl mx-auto">
                 <h2 className="text-5xl font-black mb-8">FALE COM A GENTE</h2>
                 <p className="font-hand text-xl mb-12 text-gray-300">
-                    Quer fazer uma collab? Encontrou um bug? Só quer dar oi?
+                    Quer construir algo junto?
+                    <br />
+                    Achou um bug?
+                    <br />
+                    Ou só quer falar besteira?
                 </p>
 
                 <form className="bg-white p-1 text-black text-left transform rotate-1 max-w-lg mx-auto shadow-[10px_10px_0px_0px_#333]">
@@ -28,7 +32,7 @@ export function Contact() {
                         </div>
 
                         <Button className="w-full mt-4 bg-black text-white hover:bg-gray-800">
-                            Enviar Mensagem
+                            Enviar
                         </Button>
                     </div>
                 </form>

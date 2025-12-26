@@ -13,8 +13,8 @@ export function Shop() {
 
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-10 md:mb-16">
-                    <h2 className="text-4xl md:text-6xl font-black mb-4">A LOJA</h2>
-                    <p className="font-hand text-xl md:text-2xl">Vista a camisa (literalmente).</p>
+                    <h2 className="text-4xl md:text-6xl font-black mb-4">ARTEFATOS</h2>
+                    <p className="font-hand text-xl md:text-2xl">Coisas que escaparam dos jogos.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20 items-center">
@@ -40,12 +40,13 @@ export function Shop() {
                             BONÉ<br />ORIGINS<br />001
                         </h3>
                         <p className="font-hand text-xl text-neutral-300 max-w-md">
-                            O primeiro item físico da Puro Suco. Minimalista, essencial e com nosso clássico logo bordado.
+                            Primeiro artefato físico da Puro Suco Indie.
+                            Feito para durar mais que um drop.
                         </p>
                         <div className="flex items-center gap-6 pt-4">
                             <span className="text-3xl font-bold">R$ 119,90 </span>
                             <Button variant="primary" className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black px-8 py-4 text-lg transition-colors duration-300">
-                                GARANTIR O MEU
+                                Quero esse
                             </Button>
                         </div>
                     </div>
@@ -74,7 +75,7 @@ export function Shop() {
                                 {/* Mobile: Always show button, Desktop: Hover */}
                                 <div className="md:opacity-0 md:group-hover:opacity-100 transition-opacity md:absolute md:inset-x-6 md:bottom-6 mt-4 md:mt-0">
                                     <Button variant="primary" className="w-full bg-white text-black border-white hover:bg-gray-200">
-                                        Adicionar
+                                        Em breve
                                     </Button>
                                 </div>
 

@@ -26,8 +26,8 @@ export default function ParaDevsPage() {
 
             <div className="max-w-6xl mx-auto relative z-10">
                 <div className="mb-12 border-b-4 border-blue-800 pb-4">
-                    <h1 className="text-5xl font-black text-blue-900 uppercase tracking-tighter">Área do Desenvolvedor</h1>
-                    <p className="text-blue-800 mt-2 font-bold opacity-70">// RECURSOS_COMPARTILHADOS_V1</p>
+                    <h1 className="text-5xl font-black text-blue-900 uppercase tracking-tighter">PARA DEVS</h1>
+                    <p className="text-blue-800 mt-2 font-bold opacity-70">Código que usamos. Código que quebramos.</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12">
@@ -66,7 +66,11 @@ export default function ParaDevsPage() {
                         </div>
 
                         <div className="mt-12 bg-blue-50 border border-blue-200 p-6 text-center">
-                            <p className="text-blue-800 mb-4 font-bold">Quer contribuir com o nosso código?</p>
+                            <p className="text-blue-800 mb-4 font-bold">
+                                Se usar, cite.
+                                <br />
+                                Se melhorar, devolva.
+                            </p>
                             <Link href="https://github.com/Purosuco-indie" target="_blank">
                                 <Button variant="outline" className="border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white">
                                     Acesse o GitHub

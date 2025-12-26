@@ -24,7 +24,8 @@ export function Posts() {
             }}></div>
 
             <div className="max-w-3xl mx-auto bg-white border-2 border-black p-8 sm:p-12 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] rotate-1">
-                <h2 className="text-4xl font-black mb-8 border-b-4 border-black inline-block pb-2">Caderno de Notas</h2>
+                <h2 className="text-4xl font-black mb-2 border-b-4 border-black inline-block pb-2">Caderno de Notas</h2>
+                <p className="font-hand text-xl text-gray-500 mb-8">Pensamentos que não viraram produto (ainda).</p>
 
                 <div className="space-y-6">
                     {POSTS.map((post) => (
