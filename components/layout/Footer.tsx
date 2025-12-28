@@ -55,13 +55,16 @@ export function Footer() {
                     <div>
                         <h4 className="font-bold text-lg mb-6 uppercase tracking-wider border-b border-gray-800 inline-block pb-2">Social / Contato</h4>
                         <div className="flex flex-col space-y-4 items-center md:items-start">
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-hand text-gray-400 hover:text-pink-400 transition-colors flex items-center gap-2">
+                            <a href="https://www.instagram.com/purosuco.indie/" target="_blank" rel="noopener noreferrer" className="font-hand text-gray-400 hover:text-pink-400 transition-colors flex items-center gap-2">
                                 <span>📸</span> Instagram
                             </a>
                             <a href="https://github.com/felici4no" target="_blank" rel="noopener noreferrer" className="font-hand text-gray-400 hover:text-white transition-colors flex items-center gap-2">
                                 <span>💻</span> GitHub
                             </a>
-                            <a href="mailto:contato@purosuco.indie" className="font-hand text-gray-400 hover:text-yellow-400 transition-colors flex items-center gap-2">
+                            <a href="https://ninth-grey-61c.notion.site/Puro-Suco-2d4b21db919f8003b730f3692192ac5b" target="_blank" rel="noopener noreferrer" className="font-hand text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                                <span>📝</span> Notion
+                            </a>
+                            <a href="mailto:purosuco.indie@gmail.com" className="font-hand text-gray-400 hover:text-yellow-400 transition-colors flex items-center gap-2">
                                 <span>✉️</span> Email
                             </a>
                         </div>
