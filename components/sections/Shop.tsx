@@ -3,6 +3,7 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 
 const PRODUCTS = [
+    { id: 1, name: 'BONÉ ORIGINS 002', price: 'R$ 119,90', type: 'Boné' },
 ];
 
 export function Shop() {
