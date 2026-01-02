@@ -3,7 +3,6 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 
 const PRODUCTS = [
-    { id: 1, name: 'BONÉ ORIGINS 002', price: 'R$ 119,90', type: 'Boné' },
 ];
 
 export function Shop() {
@@ -54,9 +53,7 @@ export function Shop() {
 
                 <div className="border-t border-dashed border-neutral-700 my-16"></div>
 
-                <div className="text-center mb-10">
-                    <h3 className="font-hand text-2xl text-neutral-400">Em Breve</h3>
-                </div>
+
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 opacity-60 pointer-events-none grayscale">
                     {PRODUCTS.filter(p => p.id !== 3).map((product) => (
@@ -64,7 +61,7 @@ export function Shop() {
                             {/* Card border specifically for dark mode section - inverted colors */}
                             <div className="border-2 border-white p-6 rounded-none relative transition-transform hover:-translate-y-2 bg-black">
                                 <div className="aspect-square bg-neutral-900 mb-4 flex items-center justify-center border border-dashed border-neutral-700">
-                                    <span className="font-hand text-neutral-500">Foto do Produto<br />Em Breve</span>
+                                    <span className="font-hand text-neutral-500">Foto do Produto</span>
                                 </div>
 
                                 <div className="flex justify-between items-start mb-2">
@@ -75,7 +72,7 @@ export function Shop() {
                                 {/* Mobile: Always show button, Desktop: Hover */}
                                 <div className="md:opacity-0 md:group-hover:opacity-100 transition-opacity md:absolute md:inset-x-6 md:bottom-6 mt-4 md:mt-0">
                                     <Button variant="primary" className="w-full bg-white text-black border-white hover:bg-gray-200">
-                                        Em breve
+                                        Garantir o Meu
                                     </Button>
                                 </div>
 

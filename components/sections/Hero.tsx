@@ -11,7 +11,7 @@ export function Hero() {
 
             <div className="max-w-4xl z-10 px-4">
                 <div className="mb-4 inline-block transform -rotate-2">
-                    <span className="bg-black text-white px-3 py-1 font-hand text-lg shadow-sketch">games + essência = 🧃</span>
+                    <span className="bg-black text-white px-3 py-1 font-hand text-lg shadow-sketch">ferramentas + essência = 🧃</span>
                 </div>
 
                 <h1 className="text-5xl sm:text-6xl md:text-8xl font-black mb-6 tracking-tighter leading-[0.9]">
@@ -29,9 +29,9 @@ export function Hero() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center w-full sm:w-auto">
-                    <Link href="/jogos" className="w-full sm:w-auto">
+                    <Link href="/experimentos" className="w-full sm:w-auto">
                         <Button variant="primary" className="w-full">
-                            Jogar
+                            Explorar
                         </Button>
                     </Link>
                     <Link href="/loja" className="w-full sm:w-auto">

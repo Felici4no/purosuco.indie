@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { LoadingScreen } from "@/components/ui/LoadingScreen";
 
 import { Footer } from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +21,7 @@ const patrickHand = Patrick_Hand({
 
 export const metadata: Metadata = {
   title: "PuroSuco.Indie",
-  description: "Games + Moda — feito no Brasil",
+  description: "Ferramentas Experimentais + Moda — feito no Brasil",
 };
 
 export default function RootLayout({
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

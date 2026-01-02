@@ -13,7 +13,7 @@ export function Header() {
         { label: 'Projetos', href: '/projetos' },
         { label: 'Para Devs', href: '/para-devs' },
         { label: 'Loja', href: '/loja' },
-        { label: 'Jogos', href: '/jogos' },
+        { label: 'Experimentos', href: '/experimentos' },
         { label: 'Posts', href: '/#posts' },
         { label: 'Contato', href: '/#contato' },
     ];

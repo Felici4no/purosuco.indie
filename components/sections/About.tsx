@@ -10,7 +10,7 @@ export function About() {
                     <div className="space-y-6 text-lg leading-relaxed">
                         <p>
                             Puro Suco Indie espreme ideias até restar só o essencial.
-                            Jogos jogáveis. Objetos vestíveis.
+                            Ferramentas experimentais. Objetos vestíveis.
                             Sem polimento desnecessário.
                         </p>
                         <p>
@@ -22,7 +22,7 @@ export function About() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 bg-white">
                         <div className="p-4 border-l-4 border-black">
-                            <h4 className="font-bold mb-1">Gameplay com alma</h4>
+                            <h4 className="font-bold mb-1">Ferramentas com alma</h4>
                             <p className="text-sm text-gray-600">Design não é decoração. É decisão.</p>
                         </div>
                         <div className="p-4 border-l-4 border-black">
